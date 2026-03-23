@@ -1,7 +1,7 @@
 # UI Specification Document: User Management Screen
 
 ## 1. Overview
-This document outlines the user interface specifications for the **User Management Screen**. The interface follows a master-detail pattern with a split-screen layout. The left pane contains a data grid displaying a list of users, while the right pane contains a form for creating new users or editing existing ones.
+This document outlines the user interface specifications for the **User Management Screen**. The interface follows a pattern with a split-screen layout. The left pane contains a data grid displaying a list of users, while the right pane contains a form for creating new users or editing existing ones.
 
 ## 2. Initial State (On Page Load)
 * **Data Grid:** Populated with the first page of user data fetched from the API.
@@ -17,7 +17,7 @@ This document outlines the user interface specifications for the **User Manageme
 ### 3.1 Top Action Bar
 * **`+ New User` Button**
   * **Type:** Primary Button (Icon + Text).
-  * **Action:** When clicked, clears any active row selection in the data grid, resets the right-hand form to its empty state, and changes the form title to "New User".
+  * **Action:** When clicked, clears any active row selection in the data grid, resets the form to its empty state, and changes the form title to "New User".
 * **`Hide Disabled User` Checkbox**
   * **Type:** Checkbox with Label.
   * **Action:** Toggles the visibility of disabled users in the Data Grid. 
